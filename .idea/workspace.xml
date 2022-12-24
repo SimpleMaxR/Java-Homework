@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="865dea2f-8a85-4e6b-821c-319410ed91bc" name="Changes" comment="第二次作业完成✅">
-      <change afterPath="$PROJECT_DIR$/src/hw3/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hw3/MyPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hw3/MyStringBuilder1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hw3/MyStringBuilder2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hw3/triangle2D.java" afterDir="false" />
+    <list default="true" id="865dea2f-8a85-4e6b-821c-319410ed91bc" name="Changes" comment="第四次作业完成✅">
+      <change afterPath="$PROJECT_DIR$/src/hw5/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hw5/RankChart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hw4/NameRank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw4/NameRank.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,14 +37,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -56,7 +66,11 @@
       <workItem from="1667191545481" duration="1692000" />
       <workItem from="1667193247456" duration="51000" />
       <workItem from="1669346376779" duration="1232000" />
-      <workItem from="1669354090526" duration="6158000" />
+      <workItem from="1669354090526" duration="7268000" />
+      <workItem from="1671006557211" duration="2372000" />
+      <workItem from="1671867107439" duration="2968000" />
+      <workItem from="1671870108103" duration="47000" />
+      <workItem from="1671870162394" duration="4042000" />
     </task>
     <task id="LOCAL-00001" summary="homework 1&amp;2 done!">
       <created>1665649084700</created>
@@ -79,7 +93,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667193270274</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="第三次作业完成✅">
+      <created>1669378168351</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669378168351</updated>
+    </task>
+    <task id="LOCAL-00005" summary="第四次作业完成✅">
+      <created>1671869422822</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1671869422822</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +128,8 @@
     <MESSAGE value="homework 1&amp;2 done!" />
     <MESSAGE value="新增 homework21.java，还有最后一题没有完成。&#10;关于21命名：本次理应为第三次作业（第一次教学在线/第二次QQ群），但前两次合并成了&quot;第一次&quot;，故防止冲突本次（第二次）取名21" />
     <MESSAGE value="第二次作业完成✅" />
-    <option name="LAST_COMMIT_MESSAGE" value="第二次作业完成✅" />
+    <MESSAGE value="第三次作业完成✅" />
+    <MESSAGE value="第四次作业完成✅" />
+    <option name="LAST_COMMIT_MESSAGE" value="第四次作业完成✅" />
   </component>
 </project>

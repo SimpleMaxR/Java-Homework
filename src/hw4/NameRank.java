@@ -1,8 +1,6 @@
 package hw4;
-
 import java.io.*;
-import java.util.HashMap;
-import java.util.Scanner;
+import java.util.*;
 
 public class NameRank {
   // 将文件中的数据读入到 Map 中
@@ -24,6 +22,28 @@ public class NameRank {
             girlData.put(name, new Student(name,gender,peopleUse,femaleRank));
             femaleRank++;
           }
+        }
+        reader.close();
+    }
+    public void loadDataByRank(File f, Student[] boyData, Student[] girlData) throws Exception{
+        File file = f; // 新建一个文件
+        BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(file))); // 新建一个 reader
+        String line;
+        int maleRank = 1, femaleRank = 1; // 男女排名
+        // 读到文件末尾
+        while ((line = reader.readLine()) != null) {
+            String[] parts = line.split(","); // 用逗号分割字符串
+            String name = parts[0];
+            String gender = parts[1];
+            int peopleUse = Integer.parseInt(parts[2]);
+            if (gender.equals("M")) {
+                boyData[maleRank]=(new Student(name,gender,peopleUse,maleRank));
+                maleRank++;
+
+            } else if (gender.equals("F")) {
+                girlData[femaleRank]=(new Student(name,gender,peopleUse,femaleRank));
+                femaleRank++;
+            }
         }
         reader.close();
     }
@@ -73,7 +93,7 @@ public class NameRank {
 
     scanner.close();
   }
-    static class Student{
+    public static class Student{
         String name;
         int rank;
         int numberUse;

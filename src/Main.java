@@ -1,5 +1,6 @@
 import java.io.IOException;
 import hw4.*;
+import hw5.*;
 public class Main {
     public static void main(String[] args) throws IOException {
 //        homework1 hw1Test = new homework1();
@@ -21,7 +22,11 @@ public class Main {
         // hw4
         // Account.testAccount();
         // Triangle.testTriangle();
-        NameRank nameRankTest = new NameRank();
-        nameRankTest.testNameRank();
+//        NameRank nameRankTest = new NameRank();
+//        nameRankTest.testNameRank();
+
+        // hw5
+        RankChart rankChartTest = new RankChart();
+        rankChartTest.printChart();
     }
 }
