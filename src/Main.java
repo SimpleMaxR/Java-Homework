@@ -1,7 +1,7 @@
-import java.util.Scanner;
-import hw3.*;
+import java.io.IOException;
+import hw4.*;
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 //        homework1 hw1Test = new homework1();
 //        homework2 hw2Test = new homework2();
 //        hw1Test.getSum();
@@ -16,6 +16,12 @@ public class Main {
 
         // hw3
 //        Account.testAccount();
-        triangle2D.testTri2D();
+        // triangle2D.testTri2D();
+
+        // hw4
+        // Account.testAccount();
+        // Triangle.testTriangle();
+        NameRank nameRankTest = new NameRank();
+        nameRankTest.testNameRank();
     }
 }
